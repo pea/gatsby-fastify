@@ -1,8 +1,7 @@
 import React from 'react';
 
 const ProductPage = ({serverData}) => {
-  console.log(serverData)
-  return <div>Product Page</div>;
+  return <div>Slug: {serverData.slug}</div>;
 }
 
 export default ProductPage;
